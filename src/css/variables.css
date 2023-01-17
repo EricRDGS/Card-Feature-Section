@@ -1,0 +1,10 @@
+:root{
+    --card-one: hsl(0, 78%, 62%);
+    --card-two: hsl(212, 86%, 64%);
+    --card-three: hsl(34, 97%, 64%);
+    --card-four: hsl(180, 62%, 55%);
+
+    --neutral-very-dark: hsl(234, 12%, 34%);
+    --neutral-grayish: hsl(229, 6%, 66%);
+    --neutral-very-light: hsl(0, 0%, 98%);
+}
