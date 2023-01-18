@@ -1,0 +1,56 @@
+@media(max-width: 375px){
+    
+
+    .main .section .info .title{
+        font-size: 24px;
+    }
+
+    .main .section .info .featured-title{
+        font-size: 25px;
+    }
+
+    .main .section .info .main-text{
+        width: 300px;
+    }
+}
+
+@media(min-width: 925px){
+    .main .section{
+        overflow: hidden;
+    }
+
+    .main .section .card-set{
+        position: relative;
+        width: 920px;
+        height: 405px;
+    }
+
+    .main .section .card-set .card{
+        margin-bottom: 0;
+    }
+
+    .main .section .card-set .card-one{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .main .section .card-set .card-two{
+        position: absolute;
+        right: 0%;
+        top: 27%;
+    }
+    
+    .main .section .card-set .card-three{
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .main .section .card-set .card-four{
+        position: absolute;
+        left: 0%;
+        top: 27%;
+    }
+}
